@@ -1,0 +1,142 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* shared style */
+.btn-primary {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 20px 26px;
+}
+/* header styles */
+.banner-container {
+  position: relative;
+}
+.banner-text {
+  position: absolute;
+  top: 0;
+  padding: 120px 30px 160px 986px;
+}
+.banner-title {
+  color: #151414;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.banner-description {
+  color: #444343;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.contact-btn {
+  margin: 23px 0px 0px 340px;
+}
+/* main style */
+main {
+  margin: 140px 230px 0px 230px;
+}
+.history-container {
+  display: flex;
+}
+.profile-pic {
+  width: 451px;
+  height: 898px;
+  flex-shrink: 0;
+}
+.history {
+  margin: 140px 10px 200px 300px;
+}
+.history-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.history-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.my-plan-container {
+  display: flex;
+  gap: 99px;
+  text-align: center;
+}
+.my-plan-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+.my-plan-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+/* style call-now section */
+.call-now {
+  position: relative;
+  border-radius: 8px;
+  /* background:
+    url(../images/gradient1.png),
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+background-blend-mode: overlay; */
+}
+.call-now-text {
+  position: absolute;
+  top: 0;
+  gap: 24px;
+  padding-top: 30px;
+  padding-left: 64px;
+  padding-right: 500px;
+}
+.call-now-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.call-now-description {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.call-now-btn {
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+}
+/* footer style */
+
+.footer-container {
+  background: #151414;
+  color: #fff;
+  display: flex;
+  width: 1100px;
+  height: 577px;
+  padding: 130px 230px;
+}
+.footer-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+#input-email {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  width: 325px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+/* .footer-input {
+  margin-left: 333px;
+} */
